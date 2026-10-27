@@ -6,6 +6,7 @@ import Services from "../components/sections/Services";
 import Guarantee from "../components/sections/Guarantee";
 import Work from "../components/sections/Work";
 import Contact from "../components/sections/Contact";
+import CookieBanner from "../components/ui/CookieBanner";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <Contact />
       </main>
       <Footer />
+      <CookieBanner />
     </>
   );
 }
