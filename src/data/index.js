@@ -107,3 +107,11 @@ export const hero = {
   ctaLabel: "Get a free quote",
   whatsappMessage: "Hi Axion, I'd like more leads from Meta Ads. Can we talk?",
 }
+
+export const chatDemo = [
+  { from: "them", text: "Hi, I saw your ad. Is the 3-bedroom still available?" },
+  { from: "us", text: "Yes it is! What's your budget range?" },
+  { from: "them", text: "Around ₦45m. Can I book an inspection?" },
+  { from: "us", text: "Done. Saturday 11am. We've noted your details." },
+  { from: "sys", text: "✓ New lead captured and sent to your team" },
+];
