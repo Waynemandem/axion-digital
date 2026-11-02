@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
-
-const KEY = "axion-cookie-consent";
+import { CONSENT_KEY as KEY } from "../../data";
 
 function loadTracking() {
   // Paste your Meta Pixel / analytics snippet here.
@@ -25,7 +24,7 @@ export default function CookieBanner() {
     <div className="cookie" role="dialog" aria-label="Cookie consent">
       <p>
         We use cookies for analytics and ad measurement only if you agree.{" "}
-        <a href="/privacy">Privacy policy</a>
+        <a href="#privacy">Privacy policy</a>
       </p>
       <div className="cookie-actions">
         <button className="btn btn-sm" onClick={() => decide("accepted")}>Accept</button>

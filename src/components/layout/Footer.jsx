@@ -6,6 +6,7 @@ export default function Footer() {
       <div className="wrap foot">
         <span>© {new Date().getFullYear()} Axion Digital, Lagos</span>
         <span className="socials">
+          <a href="#privacy">Privacy</a>
           {Object.entries(siteConfig.socials).map(([name, url]) => (
             <a key={name} href={url} target="_blank" rel="noopener noreferrer">{name}</a>
           ))}

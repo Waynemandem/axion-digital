@@ -1,21 +1,24 @@
 import { useEffect, useState } from "react";
 import { chatDemo } from "../../data";
 
+const TICK = 1100; // ms between messages
+const HOLD = 2; // extra ticks to pause on the finished chat
+
 export default function ChatDemo() {
   const [shown, setShown] = useState(0);
-  const [run, setRun] = useState(0);
 
   useEffect(() => {
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
       setShown(chatDemo.length);
       return;
     }
-    setShown(0);
-    const timers = chatDemo.map((_, i) =>
-      setTimeout(() => setShown(i + 1), 900 * (i + 1))
-    );
-    return () => timers.forEach(clearTimeout);
-  }, [run]);
+    let step = 0;
+    const timer = setInterval(() => {
+      step = step > chatDemo.length + HOLD ? 0 : step + 1;
+      setShown(Math.min(step, chatDemo.length));
+    }, TICK);
+    return () => clearInterval(timer);
+  }, []);
 
   return (
     <div className="chat">
@@ -25,7 +28,6 @@ export default function ChatDemo() {
           <p key={i} className={`bubble ${m.from}`}>{m.text}</p>
         ))}
       </div>
-      <button className="chat-replay" onClick={() => setRun((r) => r + 1)}>Replay</button>
     </div>
   );
 }
