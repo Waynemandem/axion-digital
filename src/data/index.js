@@ -189,3 +189,11 @@ export const Projects = [
   // add the rest the same way: { name, tag, description, link, image }
 ];
 
+export const showcase = [
+  { title: "Website builds and fixes", line: "A fast site that loads on weak mobile data and turns visitors into WhatsApp enquiries." },
+  { title: "Lead generation", line: "We drill into your market and bring you buyers, from Lekki apartment hunters to solar clients in Abuja." },
+  { title: "Brand trust", line: "Look established before the first call, with clear proof and a presence that makes people comfortable paying." },
+  { title: "Automation and AI", line: "WhatsApp replies and CRM follow-up that run day and night, so no enquiry goes cold, even at 11pm." },
+  { title: "Meta Ads that convert", line: "Facebook and Instagram campaigns built for enquiries and sales, not just likes, with every naira tracked." },
+  { title: "Strategy and training", line: "A clear growth plan for your business, and training so your team can run it after we hand over." },
+];

@@ -166,3 +166,52 @@ a.proj:hover{transform:translate(-4px,-4px);box-shadow:6px 6px 0 var(--ink)}
 
 .how-cta{text-align:center;display:grid;gap:1.5rem;justify-items:center}
 .how-cta p{font:600 1.4rem Fraunces,serif;max-width:32ch}
+
+.services{background:var(--paper);border-top:1px solid #0001;padding:6rem 0}
+.sc-grid{display:grid;gap:2.5rem;align-items:center}
+@media(min-width:768px){.sc-grid{grid-template-columns:1fr 1fr;gap:4rem}.sc-stage{order:2}}
+.sc-stage{width:100%;max-width:280px;margin:0 auto}
+@media(min-width:768px){.sc-stage{max-width:380px}}
+.sc-svg{display:block;width:100%;height:auto;touch-action:pan-y}
+.sc-text{min-height:11rem}
+.sc-text h3{font-size:clamp(1.8rem,4vw,2.6rem);margin-bottom:.75rem;animation:sc-in .45s ease both}
+.sc-text p{font-size:1.15rem;max-width:36ch;margin-bottom:1.5rem;animation:sc-in .45s .08s ease both}
+.sc-dots{display:flex;justify-content:center;margin-top:.75rem}
+.sc-dot{width:28px;height:28px;border:0;background:none;cursor:pointer;display:grid;place-items:center}
+.sc-dot span{width:8px;height:8px;border-radius:99px;background:#0003;transition:width .3s,background .3s}
+.sc-dot.on span{width:24px;background:var(--orange)}
+
+.sc .ico{opacity:0;transform:scale(.88);transform-box:fill-box;transform-origin:center;transition:opacity .4s ease,transform .4s ease;pointer-events:none}
+.sc .ico.on{opacity:1;transform:none}
+.sc .a{animation-duration:2.4s;animation-timing-function:ease-in-out;animation-iteration-count:infinite}
+.sc .sd,.sc .sw{animation-name:sc-drive;animation-duration:3s;animation-direction:alternate}
+.sc .ridge{animation-name:sc-ridge;animation-duration:.8s;animation-direction:alternate}
+.sc .bit{animation-name:sc-dash;animation-duration:.7s;animation-timing-function:linear}
+.sc .b2{animation-direction:reverse}
+.sc .mo{animation-name:sc-flick;animation-duration:.35s;animation-timing-function:steps(2);animation-direction:alternate}
+.sc .chip{animation-name:sc-chip;animation-duration:1.2s;animation-timing-function:ease-out}
+.sc .ch2{animation-delay:.3s}.sc .ch3{animation-delay:.6s}
+.sc .pulse{transform-box:fill-box;transform-origin:center;animation-name:sc-pulse}
+.sc .p2{animation-delay:.2s}.sc .p3{animation-delay:.4s}
+.sc .star{transform-box:fill-box;transform-origin:center;animation-name:sc-beat;animation-duration:1.8s}
+.sc .glow{transform-box:fill-box;transform-origin:center;animation-name:sc-breathe;animation-duration:3s}
+.sc .hm{animation-name:sc-swing;animation-duration:2.2s}
+.sc .spark{opacity:0;animation-name:sc-spark;animation-duration:2.2s}
+.sc .pg{transform-origin:100px 100px;animation-name:sc-flip;animation-duration:2.6s}
+.sc .pg2{animation-delay:1.3s}
+.sc .ico .a{animation-play-state:paused}
+.sc.live .ico.on .a{animation-play-state:running}
+
+@keyframes sc-in{from{opacity:0;transform:translateY(12px)}}
+@keyframes sc-drive{from{transform:translateY(0)}to{transform:translateY(22px)}}
+@keyframes sc-ridge{from{transform:translateX(-5px)}to{transform:translateX(5px)}}
+@keyframes sc-dash{to{stroke-dashoffset:-32}}
+@keyframes sc-flick{from{opacity:.15}to{opacity:1}}
+@keyframes sc-chip{from{opacity:1;transform:translate(0,0)}to{opacity:0;transform:translate(var(--x),var(--y))}}
+@keyframes sc-pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.05)}}
+@keyframes sc-beat{0%,100%{transform:scale(1)}50%{transform:scale(1.18)}}
+@keyframes sc-breathe{0%,100%{transform:scale(.75);opacity:.5}50%{transform:scale(1.25);opacity:1}}
+@keyframes sc-swing{0%,100%{transform:rotate(-16deg)}48%{transform:rotate(12deg)}54%{transform:rotate(10deg)}}
+@keyframes sc-spark{0%,44%{opacity:0;transform:scale(.4)}50%{opacity:1;transform:scale(1)}64%,100%{opacity:0;transform:scale(1.3)}}
+@keyframes sc-flip{0%{transform:scaleX(1);opacity:1}45%{transform:scaleX(-1);opacity:1}55%,100%{transform:scaleX(-1);opacity:0}}
+@media(prefers-reduced-motion:reduce){.sc .a{animation:none}}
