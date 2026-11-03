@@ -15,9 +15,9 @@ export const products = [
   { name: "Axion Gadgets", tag: "E-commerce Gadget store", description: "Online store for phones, laptops and other tech in Nigeria.", link: "https://axiongadgets.vercel.app/", image: "/axiongadget.png" },
   { name: "OrbitCV", tag: "AI SaaS", description: "AI resume builder for the Nigerian and African job market.", link: "https://orbitcv.vercel.app/", image: "/orbitcv.png" },
   { name: "Dulai Portfolio", tag: "Personal Portfolio", description: "", link: "https://dulai.netlify.app/dulai.html", image: "/dulaiportfolio.png" },
-  { name: "Ignited Youth", tag: "Web app", description: "An app for a church youth programme.", link: "https://yfc-verse.vercel.app/", image: "" },
+  { name: "Ignited Youth", tag: "Web app", description: "An app for a church youth programme.", link: "https://yfc-verse.vercel.app/", image: "/yfc-verse.png" },
   { name: "Crypto Dev Guide", tag: "Guide", description: "", link: "", image: "" },
-  { name: "MasterPiece", tag: "Sharwama Shop", description: "", link: "https://masterpiece-eta.vercel.app/", image: "/masterpiece.png" },
+  { name: "MasterPiece", tag: "Sharwama Shop", description: "Sharwama Shop where you can place your Order online", link: "https://masterpiece-eta.vercel.app/", image: "/masterpiece.png" },
   { name: "Netshop", tag: "E-commerce Store", description: "An online store for a Lagos retailer.", link: "https://netshop.vercel.app/", image: "" },
   { name: "SlutClothing", tag: "Fashion Brand", description: "Online store for a fashion brand.", link: "https://slut-clothing.vercel.app/", image: "/slutclothing.png" },
 ];
