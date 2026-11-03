@@ -10,17 +10,17 @@ export const navLinks = [
 export const products = [
   { name: "TrendIT Systems", tag: "Website", description: "Website for a solar company in Abuja.", link: "https://www.trenditsystems.com.ng/", image: "public/trenditsystem.png" },
   { name: "Axion Outreach", tag: "AI CRM", description: "An AI-powered CRM and pitch generator built for Nigerian businesses.", link: "https://axion-outreach-1.vercel.app/", image: "public/axionoutreach.png" },
-  { name: "Advantage", tag: "Crypto bot", description: "A Telegram bot for crypto prices, watchlists and alerts.", link: "https://t.me/axion_onchain_bot", image: "public/axiononchain.png" },
+  { name: "Advantage", tag: "Crypto bot", description: "A Telegram bot for crypto prices, watchlists and alerts.", link: "https://t.me/axion_onchain_bot", image: "/axiononchain.png" },
   { name: "Apex Trader", tag: "", description: "", link: "", image: "" },
-  { name: "Axion Gadgets", tag: "E-commerce", description: "Online store for phones, laptops and other tech in Nigeria.", link: "https://axiongadgets.vercel.app/", image: "public/axiongadget.png" },
-  { name: "OrbitCV", tag: "AI SaaS", description: "AI resume builder for the Nigerian and African job market.", link: "https://orbitcv.vercel.app/", image: "public/orbitcv.png" },
+  { name: "Axion Gadgets", tag: "E-commerce", description: "Online store for phones, laptops and other tech in Nigeria.", link: "https://axiongadgets.vercel.app/", image: "/axiongadget.png" },
+  { name: "OrbitCV", tag: "AI SaaS", description: "AI resume builder for the Nigerian and African job market.", link: "https://orbitcv.vercel.app/", image: "/orbitcv.png" },
   { name: "DispatchFlow", tag: "", description: "", link: "", image: "" },
   { name: "Dulai Portfolio", tag: "Portfolio", description: "", link: "", image: "" },
-  { name: "Ignited Youth", tag: "Web app", description: "An app for a church youth programme.", link: "https://yfc-verse.vercel.app/", image: "public/yfc-verse.png" },
+  { name: "Ignited Youth", tag: "Web app", description: "An app for a church youth programme.", link: "https://yfc-verse.vercel.app/", image: "/yfc-verse.png" },
   { name: "Crypto Dev Guide", tag: "Guide", description: "", link: "", image: "" },
-  { name: "MasterPiece", tag: "", description: "", link: "https://masterpiece-eta.vercel.app/", image: "public/masterpiece.png" },
+  { name: "MasterPiece", tag: "", description: "", link: "https://masterpiece-eta.vercel.app/", image: "/masterpiece.png" },
   { name: "Netshop", tag: "E-commerce", description: "An online store for a Lagos retailer.", link: "", image: "" },
-  { name: "SlutClothing", tag: "Fashion", description: "Online store for a fashion brand.", link: "", image: "public/slutclothing.png" },
+  { name: "SlutClothing", tag: "Fashion", description: "Online store for a fashion brand.", link: "", image: "/slutclothing.png" },
 ];
 
 export const services = [
