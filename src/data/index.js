@@ -8,19 +8,18 @@ export const navLinks = [
 ];
 
 export const products = [
-  { name: "TrendIT Systems", tag: "Website", description: "Website for a solar company in Abuja.", link: "https://www.trenditsystems.com.ng/", image: "/trenditsystem.png" },
+  { name: "TrendIT Systems", tag: "Business Website", description: "Website for a solar company in Abuja.", link: "https://www.trenditsystems.com.ng/", image: "/trenditsystem.png" },
   { name: "Axion Outreach", tag: "AI CRM", description: "An AI-powered CRM and pitch generator built for Nigerian businesses.", link: "https://axion-outreach-1.vercel.app/", image: "/axionoutreach.png" },
   { name: "Advantage", tag: "Crypto bot", description: "A Telegram bot for crypto prices, watchlists and alerts.", link: "https://t.me/axion_onchain_bot", image: "/axiononchain.png" },
   { name: "Apex Trader", tag: "Trader's Tool", description: "", link: "https://apextrader-beta.vercel.app/", image: "/apextrader.png" },
-  { name: "Axion Gadgets", tag: "E-commerce", description: "Online store for phones, laptops and other tech in Nigeria.", link: "https://axiongadgets.vercel.app/", image: "/axiongadget.png" },
+  { name: "Axion Gadgets", tag: "E-commerce Gadget store", description: "Online store for phones, laptops and other tech in Nigeria.", link: "https://axiongadgets.vercel.app/", image: "/axiongadget.png" },
   { name: "OrbitCV", tag: "AI SaaS", description: "AI resume builder for the Nigerian and African job market.", link: "https://orbitcv.vercel.app/", image: "/orbitcv.png" },
-  { name: "DispatchFlow", tag: "", description: "", link: "", image: "" },
-  { name: "Dulai Portfolio", tag: "Portfolio", description: "", link: "https://dulai.netlify.app/dulai.html", image: "/dulaiportfolio.png" },
+  { name: "Dulai Portfolio", tag: "Personal Portfolio", description: "", link: "https://dulai.netlify.app/dulai.html", image: "/dulaiportfolio.png" },
   { name: "Ignited Youth", tag: "Web app", description: "An app for a church youth programme.", link: "https://yfc-verse.vercel.app/", image: "" },
   { name: "Crypto Dev Guide", tag: "Guide", description: "", link: "", image: "" },
-  { name: "MasterPiece", tag: "", description: "", link: "https://masterpiece-eta.vercel.app/", image: "/masterpiece.png" },
-  { name: "Netshop", tag: "E-commerce", description: "An online store for a Lagos retailer.", link: "", image: "" },
-  { name: "SlutClothing", tag: "Fashion", description: "Online store for a fashion brand.", link: "", image: "/slutclothing.png" },
+  { name: "MasterPiece", tag: "Sharwama Shop", description: "", link: "https://masterpiece-eta.vercel.app/", image: "/masterpiece.png" },
+  { name: "Netshop", tag: "E-commerce Store", description: "An online store for a Lagos retailer.", link: "https://netshop.vercel.app/", image: "" },
+  { name: "SlutClothing", tag: "Fashion Brand", description: "Online store for a fashion brand.", link: "https://slut-clothing.vercel.app/", image: "/slutclothing.png" },
 ];
 
 export const services = [
